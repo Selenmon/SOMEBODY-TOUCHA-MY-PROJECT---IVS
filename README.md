@@ -5,7 +5,7 @@ Windows 64bit
 Autori
 ------
 
-Nazev tymu
+SOMEBODY TOUCHA MY PROJECT
 - xspisa01 Jakub Spišák
 - xgajdo18 Róbert Gajdošík 
 - xmikul65 Matej Mikulec  
