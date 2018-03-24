@@ -1,17 +1,15 @@
 Prostredi
 ---------
-
-Ubuntu 64bit
 Windows 64bit
 
 Autori
 ------
 
 Nazev tymu
-- xlogin01 jmeno prijmeni 
-- xlogin02 jmeno prijmeni 
-- xlogin03 jmeno prijmeni 
-- xlogin04 jmeno prijmeni 
+- xspisa01 Jakub Spišák
+- xgajdo18 Róbert Gajdošík 
+- xmikul65 Matej Mikulec  
+- xpolas38 jmeno Patrik Polášek  
 
 Licence
 -------
