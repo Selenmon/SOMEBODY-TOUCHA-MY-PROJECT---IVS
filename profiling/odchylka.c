@@ -12,10 +12,17 @@ int main()
 
 	float temp;
 
-	unsigned int N = 0.f; // počet načtených čísel
+	unsigned int N = 0; // počet načtených čísel
 	
 	float *array; // pole načtených hodnot
 
+	//pouze pro profiling
+	//N = 10;
+	//N = 100;
+	//N = 1000;
+	//konec pouze pro profiling
+	
+	
 	array = (float *)malloc(CalcMul(N,  sizeof(float)));
 
 	if (array == 0)
@@ -24,7 +31,7 @@ int main()
 		return 1;
 	}
 	
-	printf("Zadávejte hodnoty pro výpočet směrodatné odchykly: \n");
+	printf("Zadávejte postupně po jedné hodnoty pro výpočet směrodatné odchykly: \n");
 	printf("Pro konec vstupu použijte control+D!\n");
 
 	/*
@@ -46,8 +53,15 @@ int main()
 		}
 		array[N-1] = temp;
 	}
+	
+	//pouze pro profiling
+	/*for (int i = 0; i < N; i++)
+	{
+		array[i] = i+1;
+	}*/
+	//konec pouze pro profiling
 
-	if (N == 1 || N == 0)
+	if (N <= 1)
 	{
 		fprintf(stderr, "Error - Počet čísel musí být větší než 1!\nDošlo by k dělení 0!\n");
 		free(array);
@@ -74,7 +88,7 @@ int main()
 	
 	s = CalcNRT((CalcMul(A, B)), 2.f); // předělat na odmocninu z knihovny
 	
-	printf("%.2f\n", s);
+	printf("%.4f\n", s);
 
 	free(array);
 
