@@ -139,6 +139,7 @@
                             <property name="visible">True</property>
                             <property name="use_underline">True</property>
                             <property name="use_stock">True</property>
+                            <signal name="activate" handler="ABOUTPROGRAM"/>
                           </object>
                         </child>
                       </object>
@@ -158,6 +159,7 @@
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
                 <property name="image_position">top</property>
+                <signal name="activate" handler="CLOSEBUTTON"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -194,6 +196,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="FACTORIAL"/>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -205,6 +208,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="POWER"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -216,6 +220,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="SQRT"/>
               </object>
               <packing>
                 <property name="position">2</property>
@@ -227,6 +232,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="LOGARITHM"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -246,6 +252,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="WEIRDDEL"/>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -257,6 +264,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="CEDEL"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -268,6 +276,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="CDEL"/>
               </object>
               <packing>
                 <property name="position">2</property>
@@ -279,6 +288,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="Markchange"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -298,6 +308,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="ADD_7"/>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -309,6 +320,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="ADD_8"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -331,6 +343,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="DIVIDE"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -361,6 +374,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="ADD_5"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -383,6 +397,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="MULTIPLE"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -402,6 +417,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="ADD_1"/>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -435,6 +451,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="MINUS"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -454,6 +471,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="ADDCOMA"/>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -476,6 +494,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="EQUALS"/>
               </object>
               <packing>
                 <property name="position">2</property>
@@ -487,6 +506,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <signal name="activate" handler="PLUS"/>
               </object>
               <packing>
                 <property name="position">3</property>
@@ -1218,30 +1238,30 @@ Spi&#x161;&#xE1;k Jakub - xspisa01</property>
   <object class="GtkSizeGroup" id="sizegroup1">
     <property name="mode">both</property>
     <widgets>
-      <widget name="button2"/>
-      <widget name="button3"/>
-      <widget name="button4"/>
-      <widget name="button5"/>
-      <widget name="button6"/>
-      <widget name="button7"/>
-      <widget name="button8"/>
-      <widget name="button9"/>
-      <widget name="button10"/>
-      <widget name="button11"/>
-      <widget name="button12"/>
-      <widget name="button13"/>
-      <widget name="button14"/>
-      <widget name="button15"/>
-      <widget name="button16"/>
-      <widget name="button17"/>
-      <widget name="button18"/>
-      <widget name="button19"/>
-      <widget name="button20"/>
-      <widget name="button21"/>
-      <widget name="button22"/>
-      <widget name="button23"/>
-      <widget name="button24"/>
       <widget name="button25"/>
+      <widget name="button24"/>
+      <widget name="button23"/>
+      <widget name="button22"/>
+      <widget name="button21"/>
+      <widget name="button20"/>
+      <widget name="button19"/>
+      <widget name="button18"/>
+      <widget name="button17"/>
+      <widget name="button16"/>
+      <widget name="button15"/>
+      <widget name="button14"/>
+      <widget name="button13"/>
+      <widget name="button12"/>
+      <widget name="button11"/>
+      <widget name="button10"/>
+      <widget name="button9"/>
+      <widget name="button8"/>
+      <widget name="button7"/>
+      <widget name="button6"/>
+      <widget name="button5"/>
+      <widget name="button4"/>
+      <widget name="button3"/>
+      <widget name="button2"/>
     </widgets>
   </object>
 </interface>
