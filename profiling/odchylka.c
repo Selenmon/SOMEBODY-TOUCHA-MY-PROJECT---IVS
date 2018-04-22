@@ -88,7 +88,7 @@ int main()
 	
 	s = CalcNRT((CalcMul(A, B)), 2.f); // předělat na odmocninu z knihovny
 	
-	printf("%.4f\n", s);
+	printf("Výběrová směrodatná odchylka (s) = %.4f\n", s);
 
 	free(array);
 
