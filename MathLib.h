@@ -52,14 +52,14 @@ double CalcFac(double a)
 double CalcPow(double a,int b)
 {
     double r = 0.0;
-    if(b = 0)
+    if(b == 0)
     {
         r = 1.0;
         return r;
     }
-    if(a = 0)
+    if(a == 0)
     {
-        r = 0.0
+        r = 0.0;
         return r;
     }
     else if (b < 0)
@@ -84,13 +84,21 @@ double CalcNRT(double a, int b)
     }
     else
     {
-        r = pow(a, 1/b)
+        r = pow(a, 1/b);
     }
 }
 
-double CalcAdditional(double a, int b)
+double CalcAdditional(double a, double b)
 {
     double r = 0.0;
+    if(b == 1)
+    {
+        r = log(a);
+        return r;
+    }
+    else
+    {
     r = log(x) / log(b);
     return r;
+    }
 }
