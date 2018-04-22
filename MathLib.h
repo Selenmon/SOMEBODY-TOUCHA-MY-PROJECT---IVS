@@ -86,6 +86,7 @@ double CalcNRT(double a, int b)
     {
         r = pow(a, 1.f/b);
     }
+    return r;
 }
 
 double CalcAdditional(double a, double b)
