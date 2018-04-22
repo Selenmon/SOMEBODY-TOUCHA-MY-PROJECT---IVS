@@ -42,7 +42,7 @@ double CalcFac(double a)
 {
     double r = 1.0;
     double i = 0.0;
-    for(i = a, i > 0, i--)
+    for(i = a; i > 0; i--)
     {
         r = r * i;
     }
@@ -64,7 +64,7 @@ double CalcPow(double a,int b)
     }
     else if (b < 0)
     {
-        fprintf(stderr ,"Error,exponent is not a natural number!")
+        fprintf(stderr ,"Error,exponent is not a natural number!");
         return 0;
     }
     else
@@ -80,11 +80,11 @@ double CalcNRT(double a, int b)
     double r = 0.0;
     if(a < 0)
     {
-        fprintf(stderr, "Cannot calculate root of a negative number!")
+        fprintf(stderr, "Cannot calculate root of a negative number!");
     }
     else
     {
-        r = pow(a, 1/b);
+        r = pow(a, 1.f/b);
     }
 }
 
@@ -98,7 +98,7 @@ double CalcAdditional(double a, double b)
     }
     else
     {
-    r = log(x) / log(b);
+    r = log(a) / log(b);
     return r;
     }
 }

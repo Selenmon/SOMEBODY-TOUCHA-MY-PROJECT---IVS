@@ -1,21 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "../MathLib.h"
 #include <math.h>
 
 int main()
 {
-	float A;
-	float B = 0;
-	float s;
-	float x = 0;
+	float A = 0.f;
+	float B = 0.f;
+	float s = 0.f;
+	float x = 0.f;
 
 	float temp;
 
-	unsigned int N = 0; // počet načtených čísel
+	unsigned int N = 0.f; // počet načtených čísel
 	
 	float *array; // pole načtených hodnot
 
-	array = (float *)malloc(N * sizeof(float));
+	array = (float *)malloc(CalcMul(N,  sizeof(float)));
 
 	if (array == 0)
 	{
@@ -37,7 +38,7 @@ int main()
 		}
 
 		N++;
-		array = (float *) realloc(array, N*sizeof(float));
+		array = (float *) realloc(array, CalcMul(N, sizeof(float)));
 		if (array == 0)
 		{
 			fprintf(stderr, "Realokace paměti neproběhla úspěšně!\n");
@@ -53,29 +54,27 @@ int main()
 		return 1;
 	}
 
-	A = 1.f / (N - 1);
+	A = CalcDiv(1.f, CalcSub(N ,1.f));
 
 	// výpočet x s pruhem
 	for (int i = 0; i < N; i++)
 	{
 		x += array[i];
 	}
-
-	x = x / N;
+	x = CalcDiv(x, N);
 	// konec výpočtu x s pruhem
 	
 	// výpočet hlavní sumy
 	for (int i = 0; i < N; i++)
 	{
-		B += array[i] * array[i]; // předělat na mocninou funkci z knihovny
+		B = CalcAdd(B ,CalcPow(array[i], 2.f)); // předělat na mocninou funkci z knihovny
 	}
-	
-	B = B - (N * x * x); // předělat na mocninou funkci z kinihovny
+	B = CalcSub(B ,(CalcMul(N ,CalcPow(x,2.f)))); // předělat na mocninou funkci z kinihovny
 	// konec výpočtu hlavní sumy
 	
-	s = sqrt(A * B); // předělat na odmocninu z knihovny
+	s = CalcNRT((CalcMul(A, B)), 2.f); // předělat na odmocninu z knihovny
 	
-	printf("%f\n", s);
+	printf("%.2f\n", s);
 
 	free(array);
 
