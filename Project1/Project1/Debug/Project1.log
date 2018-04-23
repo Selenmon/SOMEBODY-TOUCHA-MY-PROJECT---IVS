@@ -1,2 +1,91 @@
 ﻿  MyForm.cpp
-  Project1.vcxproj -> D:\IVS\Visual studio\Project1\Debug\Project1.exe
+d:\ivs\visual studio\project1\project1\myform.h(20): error C3149: 'System::String': cannot use this type here without a top-level '^'
+d:\ivs\visual studio\project1\project1\myform.h(21): error C3149: 'System::String': cannot use this type here without a top-level '^'
+d:\ivs\visual studio\project1\project1\myform.h(22): error C3149: 'System::String': cannot use this type here without a top-level '^'
+d:\ivs\visual studio\project1\project1\myform.h(492): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1250)
+d:\ivs\visual studio\project1\project1\myform.h(668): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1250)
+d:\ivs\visual studio\project1\project1\myform.h(20): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(20): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(20): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(22): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(22): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(22): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(700): error C2059: syntax error: '}'
+d:\ivs\visual studio\project1\project1\myform.h(700): error C2143: syntax error: missing ';' before '}'
+d:\ivs\visual studio\project1\project1\myform.h(502): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(502): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(502): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(503): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(503): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(503): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(504): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(504): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(504): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(509): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(509): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(509): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(510): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(510): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(510): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(511): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(511): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(511): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(516): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(516): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(516): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(517): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(517): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(517): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(518): error C2065: 'string': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(518): error C2228: left of '.Empty' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(518): note: type is 'unknown-type'
+d:\ivs\visual studio\project1\project1\myform.h(600): error C2086: 'double num1': redefinition
+  d:\ivs\visual studio\project1\project1\myform.h(599): note: see declaration of 'num1'
+d:\ivs\visual studio\project1\project1\myform.h(601): error C2059: syntax error: '.'
+d:\ivs\visual studio\project1\project1\myform.h(629): error C2181: illegal else without matching if
+d:\ivs\visual studio\project1\project1\myform.h(634): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(634): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(634): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(638): error C2440: '=': cannot convert from 'const char [12]' to 'double'
+  d:\ivs\visual studio\project1\project1\myform.h(638): note: There is no context in which this conversion is possible
+d:\ivs\visual studio\project1\project1\myform.h(639): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(639): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(639): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(643): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(643): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(643): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(648): error C2065: 'i': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(648): error C2143: syntax error: missing ';' before ')'
+d:\ivs\visual studio\project1\project1\myform.h(649): error C2143: syntax error: missing ';' before '{'
+d:\ivs\visual studio\project1\project1\myform.h(649): error C2143: syntax error: missing ')' before '{'
+d:\ivs\visual studio\project1\project1\myform.h(652): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(652): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(652): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(654): error C2181: illegal else without matching if
+d:\ivs\visual studio\project1\project1\myform.h(660): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(660): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(660): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(661): error C2143: syntax error: missing ';' before '}'
+d:\ivs\visual studio\project1\project1\myform.h(665): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(665): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(665): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(666): error C2143: syntax error: missing ';' before '}'
+d:\ivs\visual studio\project1\project1\myform.h(672): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(672): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(672): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(677): error C2146: syntax error: missing ';' before identifier 'textBox1'
+d:\ivs\visual studio\project1\project1\myform.h(677): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(677): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(677): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(684): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(684): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(684): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(689): error C2065: 'i': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(689): error C2143: syntax error: missing ';' before ')'
+d:\ivs\visual studio\project1\project1\myform.h(690): error C2143: syntax error: missing ';' before '{'
+d:\ivs\visual studio\project1\project1\myform.h(690): error C2143: syntax error: missing ')' before '{'
+d:\ivs\visual studio\project1\project1\myform.h(691): error C2065: 'i': undeclared identifier
+d:\ivs\visual studio\project1\project1\myform.h(693): error C2228: left of '.Text' must have class/struct/union
+  d:\ivs\visual studio\project1\project1\myform.h(693): note: type is 'System::Windows::Forms::TextBox ^'
+  d:\ivs\visual studio\project1\project1\myform.h(693): note: did you intend to use '->' instead?
+d:\ivs\visual studio\project1\project1\myform.h(694): error C2143: syntax error: missing ';' before '}'
