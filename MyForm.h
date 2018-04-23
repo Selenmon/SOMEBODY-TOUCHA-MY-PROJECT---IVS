@@ -826,7 +826,7 @@ namespace Project1 {
                     result = 1;
                     this->textBox1->Text = result.ToString();
                 }
-                else if (num2 == 0 && num1 == 1)
+                else if (num2 == 0 && num1 == 0)
                 {
                     this->textBox1->Text = "Math Error!";
                 }
@@ -837,7 +837,7 @@ namespace Project1 {
                 else
                 {
                     result = 1;
-                    for (int i = 0; i = num2; i++)
+                    for (int i = 1; i <= num2; i++)
                     {
                         result = result * num1;
                     }
