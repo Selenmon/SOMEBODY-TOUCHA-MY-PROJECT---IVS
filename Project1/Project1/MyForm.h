@@ -1,8 +1,5 @@
 ﻿#pragma once
-#include<stdio.h>
-#include<iostream>
-#include<string>
-#include<math.h>
+
 namespace Project1 {
 
 	using namespace System;
@@ -17,12 +14,6 @@ namespace Project1 {
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
-		String input = string.Empty;
-		String operand1 = string.Empty;
-		String operand2 = string.Empty;
-		char operation;
-		double result = 0.0;
-
 	public:
 		MyForm(void)
 		{
@@ -146,7 +137,7 @@ namespace Project1 {
 			this->button_divide->TabIndex = 0;
 			this->button_divide->Text = L"/";
 			this->button_divide->UseVisualStyleBackColor = true;
-			this->button_divide->Click += gcnew System::EventHandler(this, &MyForm::button_divide_Click);
+			this->button_divide->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// textBox1
 			// 
@@ -469,232 +460,241 @@ namespace Project1 {
 			this->PerformLayout();
 
 		}
-#pragma endregion 
-	private: System::Void buttonfactorial_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		System::String^operand1 = this->textBox1->Text;
-		this->textBox1->Text = "";
-		this->textBox1->Text += "!";
-	}
-	private: System::Void buttonPower_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "^";
-	}
-	private: System::Void button_divide_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "/";
-	}
-	private: System::Void buttonSquareroot_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "√";
-	}
-	private: System::Void buttonLogarithm_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "log";
-	}
-	private: System::Void buttonWeirddel_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->input = string.Empty;
-		this->operand1 = string.Empty;
-		this->operand2 = string.Empty;
-	}
-	private: System::Void buttonCEdel_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->input = string.Empty;
-		this->operand1 = string.Empty;
-		this->operand2 = string.Empty;
-	}
-	private: System::Void buttonCdel_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->input = string.Empty;
-		this->operand1 = string.Empty;
-		this->operand2 = string.Empty;
-	}
-	private: System::Void buttonPlusminus_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "±";
-	}
-	private: System::Void button_7_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "7";
-	}
-	private: System::Void button_8_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "8";
-	}
-	private: System::Void button_9_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "9";
-	}
-	private: System::Void button_4_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "4";
-	}
-	private: System::Void button_5_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "5";
-	}
-	private: System::Void button_6_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "6";
-	}
-	private: System::Void button_multiple_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "*";
-	}
-	private: System::Void button_1_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "1";
-	}
-	private: System::Void button_2_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "2";
-	}
-	private: System::Void button_3_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "3";
-	}
-	private: System::Void button_add_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "+";
-	}
-	private: System::Void button_sub_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += "-";
-	}
-	private: System::Void button_COMA_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		this->textBox1->Text += ",";
-	}
-	private: System::Void button_0_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		this->textBox1->Text = "";
-		System::String^input = gcnew String("0");
-		this->textBox1->Text += "0";
-	}
-	private: System::Void buttonEquals_Click(System::Object^  sender, System::EventArgs^  e)
-	{
-		operand2 = input;
-		double num1, num2;
-		double num1 = Convert::ToDouble(operand1);
-		double.TryParse(operand2, out num2);
+#pragma endregion
+private: System::Void buttonfactorial_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "!";
+	this.textBox1.Text += input;
+}
+private: System::Void buttonPower_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "^";
+	this.textBox1.Text += input;
+}
+private: System::Void buttonSquareroot_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "√";
+	this.textBox1.Text += input;
+}
+private: System::Void buttonLogarithm_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "log";
+	this.textBox1.Text += input;
+}
+private: System::Void buttonWeirddel_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	this.input = string.Empty;
+	this.operand1 = string.Empty;
+	this.operand2 = string.Empty;
+}
+private: System::Void buttonCEdel_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	this.input = string.Empty;
+	this.operand1 = string.Empty;
+	this.operand2 = string.Empty;
+}
+private: System::Void buttonCdel_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	this.input = string.Empty;
+	this.operand1 = string.Empty;
+	this.operand2 = string.Empty;
+}
+private: System::Void buttonPlusminus_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "±";
+	this.textBox1.Text += input;
+}
+private: System::Void button_7_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "7";
+	this.textBox1.Text += input;
+}
+private: System::Void button_8_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "8";
+	this.textBox1.Text += input;
+}
+private: System::Void button_9_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "9";
+	this.textBox1.Text += input;
+}
+private: System::Void button_4_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "4";
+	this.textBox1.Text += input;
+}
+private: System::Void button_5_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "5";
+	this.textBox1.Text += input;
+}
+private: System::Void button_6_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "6";
+	this.textBox1.Text += input;
+}
+private: System::Void button_multiple_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "*";
+	this.textBox1.Text += input;
+}
+private: System::Void button_1_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "1";
+	this.textBox1.Text += input;
+}
+private: System::Void button_2_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "2";
+	this.textBox1.Text += input;
+}
+private: System::Void button_3_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "3";
+	this.textBox1.Text += input;
+}
+private: System::Void button_sub_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "+";
+	this.textBox1.Text += input;
+}
+private: System::Void button_COMA_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + ",";
+	this.textBox1.Text += input;
+}
+private: System::Void button_0_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "0";
+	this.textBox1.Text += input;
+}
+private: System::Void buttonEquals_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	operand2 = input;
+	double num1, num2;
+	double.TryParse(operand1, out num1);
+	double.TryParse(operand2, out num2);
 
-		if (operation == '+')
+	if (operation == '+')
+	{
+		result = num1 + num2;
+		textBox1.Text = result.ToString();
+	}
+	else if (operation == '-')
+	{
+		result = num1 - num2;
+		textBox1.Text = result.ToString();
+	}
+	else if (operation == '*')
+	{
+		result = num1 * num2;
+		textBox1.Text = result.ToString();
+	}
+	else if (operation == '/')
+	{
+		if (num2 != 0)
 		{
-			result = num1 + num2;
-			this->textBox1->Text = result.ToString();
+			result = num1 / num2;
+			textBox1.Text = result.ToString();
 		}
-		else if (operation == '-')
+		else
 		{
-			result = num1 - num2;
-			this->textBox1->Text = result.ToString();
+			textBox1.Text = "DIV/Zero!";
 		}
-		else if (operation == '*')
+	else if (operation == '^')
+	{
+		if (num2 == 0)
 		{
-			result = num1 * num2;
-			this->textBox1->Text = result.ToString();
+			result = 1;
+			textBox1.Text = result.ToString();
 		}
-		else if (operation == '/')
+		else if (num2 == 0 && num1 == 1)
 		{
-			if (num2 != 0)
-			{
-				result = num1 / num2;
-				this->textBox1->Text = result.ToString();
-			}
-			else
-			{
-				this->textBox1->Text = "DIV/Zero!";
-			}
-		else if (operation == '^')
-		{
-			if (num2 == 0)
-			{
-				result = 1;
-				textBox1.Text = result.ToString();
-			}
-			else if (num2 == 0 && num1 == 1)
-			{
-				result = "Math Error!";
-				textBox1.Text = result.ToString();
-			}
-			else if (num2 < 0)
-			{
-				textBox1.Text = "Exponent not a natural number!";
-			}
-			else
-			{
-				result = 1;
-				for (i = 0, i = num2, i++)
-				{
-					result = result * num1;
-				}
-				textBox1.Text = result.ToString();
-			}
-		else if (operation == 'log')
-		{
-			result = 0;
-			if (num2 == 1)
-			{
-				result = log(num1);
-				textBox1.Text = result.ToString()
-			}
-			else
-			{
-				result = log(num1) / log(num2);
-				textBox1.Text = result.ToString()
-			}
+			result = "Math Error!";
+			textBox1.Text = result.ToString();
 		}
-		else if (operation == '√')
+		else if (num2 < 0)
 		{
-			if (num1 < 0)
-			{
-				textBox1.Text = "Can't root a negative number!";
-			}
-			else
-			{
-				result = pow(num2, 1 / num1)
-					textBox1.Text = result.ToString();
-			}
+			textBox1.Text = "Exponent not a natural number!";
 		}
-		else if (operation == '!')
+		else
 		{
-			if (num1 < 0)
+			result = 1;
+			for (i = 0, i = num2, i++)
 			{
-				textBox1.Text = "Not a valid number!";
+				result = result * num1;
 			}
-			else
-			{
-				result = 1;
-				for (i = num1, i > 0, i--)
-				{
-					result = result * i;
-				}
-				textBox1.Text = result.ToString()
-			}
+			textBox1.Text = result.ToString();
+	}
+	else if (operation == 'log')
+	{
+		result = 0;
+		if (num2 == 1)
+		{
+			result = log(num1);
+			textBox1.Text = result.ToString()
 		}
-		};
+		else
+		{
+			result = log(num1) / log(num2);
+			textBox1.Text = result.ToString()
 		}
 	}
+	else if (operation == '√')
+	{
+		if (num1 < 0)
+		{
+			textBox1.Text = "Can't root a negative number!";
+		}
+		else
+		{
+			result = pow(num2, 1 / num1)
+				textBox1.Text = result.ToString();
+		}
 	}
+	else if (operation == '!')
+	{
+		if (num1 < 0)
+		{
+			textBox1.Text = "Not a valid number!";
+		}
+		else
+		{
+			result = 1;
+			for (i = num1, i > 0, i--)
+			{
+			result = result * i;
+			}
+		textBox1.Text = result.ToString()
+		}
+	}
+private: System::Void button_add_Click(System::Object^  sender, System::EventArgs^  e) 
+{
+	this.textBox1.Text = "";
+	input = input + "+";
+	this.textBox1.Text += input;
+}
+};
 }
