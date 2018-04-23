@@ -1,7 +1,7 @@
 all: odchylka.o
-	gcc -o odchylka odchylka.o -lm
+	gcc -g -o odchylka odchylka.o -lm
 odchylka .o: odchylka.c
-	gcc -c odchylka.c -lm
+	gcc -g -c odchylka.c -lm
 mem: odchylka
 	valgrind --leak-check=full ./odchylka
 prof: odchylka

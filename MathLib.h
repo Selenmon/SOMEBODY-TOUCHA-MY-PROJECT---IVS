@@ -24,6 +24,9 @@ double CalcSub(double a,double b)
     return r;
 }
 
+/*
+ *@author Gajdosik
+ */
 double CalcMul(double a,double b)
 {
     double r = 0.0;
