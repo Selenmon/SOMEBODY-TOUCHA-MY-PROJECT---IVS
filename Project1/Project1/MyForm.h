@@ -5,6 +5,7 @@
 #include<iostream>
 #include<string>
 #include<math.h>
+#include<algorithm>
 namespace Project1 {
 
     using namespace System;
@@ -531,11 +532,19 @@ namespace Project1 {
     }
     private: System::Void button_7_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        this->textBox1->Text = "";
+        bool pls = false;
+        
+        for (int i = 0; i < (this->textBox1->Text->Length); i++) {
+            if (!isalnum(this->textBox1->Text[i])) pls = true;
+        }
+        if (pls) {
+            this->textBox1->Text = "" ;
+        }
         this->textBox1->Text += "7";
     }
     private: System::Void button_8_Click(System::Object^  sender, System::EventArgs^  e)
     {
+
         this->textBox1->Text = "";
         this->textBox1->Text += "8";
     }
