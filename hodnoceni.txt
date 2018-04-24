@@ -1,4 +1,4 @@
-xlogin01 100 (základ GUI a základní mat. operace)
-xlogin02 100 (pokročilé mat. operace)
-xlogin03 90 (profiling, instalátor)
-xlogin04 110 (testy, dokumentace)
+﻿xspisa01 140 (základ GUI , Github, základní mat. operace)
+xgajdo65 140 (pokročilé mat. operace, GUI)
+xpolas38 120 (profiling, instalátor , makefile, dokumentace)
+xmikul65 0 (GUI, dokumentace)
