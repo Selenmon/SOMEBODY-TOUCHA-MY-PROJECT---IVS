@@ -1,6 +1,1 @@
-﻿  MyForm.cpp
-c:\users\selenmon\documents\github\somebody-toucha-my-project---ivs\project1\project1\myform.h(525): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1250)
-c:\users\selenmon\documents\github\somebody-toucha-my-project---ivs\project1\project1\myform.h(527): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1250)
-c:\users\selenmon\documents\github\somebody-toucha-my-project---ivs\project1\project1\myform.h(848): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1250)
-c:\users\selenmon\documents\github\somebody-toucha-my-project---ivs\project1\project1\myform.h(871): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Project1.vcxproj -> C:\Users\Selenmon\Documents\GitHub\SOMEBODY-TOUCHA-MY-PROJECT---IVS\Project1\Debug\Project1.exe
+﻿  Project1.vcxproj -> C:\Users\Selenmon\Documents\GitHub\SOMEBODY-TOUCHA-MY-PROJECT---IVS\Project1\Debug\Project1.exe
