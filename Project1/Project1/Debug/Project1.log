@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+﻿  Project1.vcxproj -> C:\Users\Selenmon\Documents\GitHub\SOMEBODY-TOUCHA-MY-PROJECT---IVS\Project1\Debug\Project1.exe
+=======
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1124,5): error MSB3644: Referenční sestavení pro architekturu .NETFramework,Version=v4.6.1 nebyla nalezena. Chcete-li tento problém vyřešit, nainstalujte sadu SDK nebo sadu cílů určenou pro tuto verzi architektury nebo změňte cíl aplikace na verzi architektury, pro kterou máte nainstalovánu sadu SDK nebo sadu cílů. Sestavení budou přeložena z mezipaměti GAC (Global Assembly Cache) a budou použita namísto referenčních sestavení. Z toho důvodu sestavení pravděpodobně nebude správně zacíleno na předpokládanou architekturu.
+>>>>>>> ba2cd5c9c04b00c962f3da282d805d4bca99bf8c
