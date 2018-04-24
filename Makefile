@@ -9,6 +9,27 @@ help:
 	$(info Spuštění na linuxu není podporováno, program vyžaduje specifické návaznosti z Visual Studia!)
 
 pack:
+	mkdir xspisa01_xgajdo18_xmikul65_xpolas38
+	cd xspisa01_xgajdo18_xmikul65_xpolas38 && mkdir repo && mkdir install
+	cp ./install/Setup.msi ./xspisa01_xgajdo18_xmikul65_xpolas38/install/
+	cp ./debugging.png ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp -r ./dokumentace/ ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./dokumentace.pdf ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./GTK-IVS.glade ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./hodnoceni.txt ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp -r ./install/ ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./LICENSE.txt ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./Makefile ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./MathLib.h ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp -r ./mockup ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp -r ./profiling ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp -r ./Project1 ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./README.md ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./screenshot.png ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
+	cp ./skutecnost.txt ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
 	
+	zip -r xspisa01_xgajdo18_xmikul65_xpolas38.zip ./xspisa01_xgajdo18_xmikul65_xpolas38/
+
+	rm -r ./xspisa01_xgajdo18_xmikul65_xpolas38/
 clean:
 	cd profiling && rm odchylka.o && rm odchylka
