@@ -1,1 +1,5 @@
-tento soubor bude obsahovat rozdil mezi planem projektu a skutecnosti
+Z důvodů velkého počtu školních projektů s blízkým termínem odevzdání na konci letního semestru
+se práce na projektu zpozdily oproti původnímu plánu.
+Dalším a hlavním důvodem zpoždění projektu je ztráta člena týmu, se kterým se počítalo při
+počátečním rozvržení práce a při tvorbě plánu. Práce se musela rozdělit mezi ostatní členy týmu
+ a tímto se porušil původní plán.

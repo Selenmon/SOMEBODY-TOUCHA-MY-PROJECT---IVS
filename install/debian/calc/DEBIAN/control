@@ -1,8 +1,0 @@
-Package: hello
-Version: 1.00
-Section: base
-Priority: optional
-Architecture: all
-Depends: debconf (>= 0.2.26)
-Maintainer: Patrik
-Description: Hello world!
