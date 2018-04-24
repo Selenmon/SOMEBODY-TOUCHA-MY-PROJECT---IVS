@@ -33,7 +33,5 @@ pack:
 	cp ./.gitignore ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
 	
 	zip -r xspisa01_xgajdo18_xmikul65_xpolas38.zip ./xspisa01_xgajdo18_xmikul65_xpolas38/
-
-	rm -r ./xspisa01_xgajdo18_xmikul65_xpolas38/
 clean:
 	cd profiling && rm odchylka.o && rm odchylka
