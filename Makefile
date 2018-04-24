@@ -9,8 +9,6 @@ help:
 	$(info Spuštění na linuxu není podporováno, program vyžaduje specifické návaznosti z Visual Studia!)
 
 pack:
-	rm -r ./xspisa01_xgajdo18_xmikul65_xpolas38/
-	
 	mkdir xspisa01_xgajdo18_xmikul65_xpolas38
 	cd xspisa01_xgajdo18_xmikul65_xpolas38 && mkdir repo && mkdir install
 	cp ./install/Setup.msi ./xspisa01_xgajdo18_xmikul65_xpolas38/install/
