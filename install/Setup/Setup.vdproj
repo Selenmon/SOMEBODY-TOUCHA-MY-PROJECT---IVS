@@ -15,14 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_C9915E4E5F774358A25913420A2DE72A"
+        "MsmKey" = "8:_4EC3E7A32546442E83EEBEBCC7760CAF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7146FD5D24E74ECB9DAA2833A1C3BB20"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C9915E4E5F774358A25913420A2DE72A"
+        "OwnerKey" = "8:_4EC3E7A32546442E83EEBEBCC7760CAF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -43,6 +49,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,6 +81,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -88,21 +126,41 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C9915E4E5F774358A25913420A2DE72A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4EC3E7A32546442E83EEBEBCC7760CAF"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Project1, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_C9915E4E5F774358A25913420A2DE72A"
+                    "_4EC3E7A32546442E83EEBEBCC7760CAF"
                     {
-                    "Name" = "8:Project1.exe"
+                    "Name" = "8:IVS-Calculator.exe"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\..\\Project1\\x64\\Debug\\Project1.exe"
+            "SourcePath" = "8:..\\IVS-Calculator.exe"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7146FD5D24E74ECB9DAA2833A1C3BB20"
+            {
+            "SourcePath" = "8:..\\..\\LICENSE.txt"
+            "TargetName" = "8:LICENSE.txt"
             "Tag" = "8:"
             "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
             "Condition" = "8:"
