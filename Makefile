@@ -31,7 +31,6 @@ pack:
 	cp -r ./.git ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
 	cp ./.gitattributes ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
 	cp ./.gitignore ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
-	cp ./xspisa01_xgajdo18_xmikul65_xpolas38/repo/
 	
 	zip -r xspisa01_xgajdo18_xmikul65_xpolas38.zip ./xspisa01_xgajdo18_xmikul65_xpolas38/
 
