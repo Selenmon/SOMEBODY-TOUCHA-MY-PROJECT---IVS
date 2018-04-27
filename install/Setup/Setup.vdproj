@@ -15,13 +15,37 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_217779AE50F643E3976F923FBAE2CF9E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4EC3E7A32546442E83EEBEBCC7760CAF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_4FBAA3E5EA244E20A0E5D1C3288EFFF7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7146FD5D24E74ECB9DAA2833A1C3BB20"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_742BF1020B074805BE66EE8DAB67BCB7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9F0AF2BF795D4BB2A09A2B45EFE7DB3F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -126,6 +150,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_217779AE50F643E3976F923FBAE2CF9E"
+            {
+            "SourcePath" = "8:..\\msvcp140d.dll"
+            "TargetName" = "8:msvcp140d.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4EC3E7A32546442E83EEBEBCC7760CAF"
             {
             "AssemblyRegister" = "3:1"
@@ -157,10 +201,70 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4FBAA3E5EA244E20A0E5D1C3288EFFF7"
+            {
+            "SourcePath" = "8:..\\favicon.ico"
+            "TargetName" = "8:favicon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7146FD5D24E74ECB9DAA2833A1C3BB20"
             {
             "SourcePath" = "8:..\\..\\LICENSE.txt"
             "TargetName" = "8:LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_742BF1020B074805BE66EE8DAB67BCB7"
+            {
+            "SourcePath" = "8:..\\ucrtbased.dll"
+            "TargetName" = "8:ucrtbased.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F0AF2BF795D4BB2A09A2B45EFE7DB3F"
+            {
+            "SourcePath" = "8:..\\vcruntime140d.dll"
+            "TargetName" = "8:vcruntime140d.dll"
             "Tag" = "8:"
             "Folder" = "8:_52123C18220F48369A235F17DDF8DF99"
             "Condition" = "8:"
@@ -234,7 +338,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:STMP Calculator"
         "ProductCode" = "8:{19DD2F2D-5CDC-4437-9A6F-87960E1ECC6B}"
-        "PackageCode" = "8:{DE442CC3-9445-4C64-8015-532E1E2985FB}"
+        "PackageCode" = "8:{8DD2C907-1427-4EF5-88ED-2F3948599BF6}"
         "UpgradeCode" = "8:{1262CADD-E0D5-44B8-8508-50A00617C681}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -244,7 +348,7 @@
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:SOMEBODY TOUCHA MY PROJECT"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "ARPHELPLINK" = "8:https://github.com/Selenmon/SOMEBODY-TOUCHA-MY-PROJECT---IVS"
         "Title" = "8:Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:SOMEBODY TOUCHA MY PROJECT"
@@ -354,6 +458,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_269C201F1E2B458D86D498FC3743102D"
+            {
+            "Name" = "8:IVS-Calculator"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_4EC3E7A32546442E83EEBEBCC7760CAF"
+            "Folder" = "8:_E29BD1BE74DA48E2B9A182EC752217DF"
+            "WorkingFolder" = "8:_52123C18220F48369A235F17DDF8DF99"
+            "Icon" = "8:_4FBAA3E5EA244E20A0E5D1C3288EFFF7"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
